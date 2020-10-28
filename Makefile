@@ -42,7 +42,7 @@ INCLUDES  +=  -I./	\
 			  #-I/home/jrf/Application/yaml-cpp/include
 
 LIBRARIES += -L$(MY_LIB_PATH) -L$(LICHEE_DIR)/tools/pack/chips/sun8iw17p1/hal/gpu/fbdev/lib
-LIBRARIES += -lpthread -lGLESv2 -lEGL #-lyaml-cpp
+LIBRARIES +=  L-lpthread -lGLESv2 -lEGL #-lyaml-cpp
 LIBRARIES += -L$(OPENCV_DIR)/lib -lopencv_core -lopencv_imgproc -lopencv_imgcodecs -lopencv_highgui -lopencv_videoio -lopencv_calib3d -lopencv_flann #-lopencv_features2d
 LIBRARIES += -L$(LICHEE_DIR)/out/sun8iw17p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot/usr/lib
 # Target rules
